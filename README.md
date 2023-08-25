@@ -7,6 +7,8 @@ Work Day Scheudler for planning out the day.
 This work day scheduler let's you enter important events for the day and through out the day will change the color of the boxes to indicate priority. 
 ## Installation
 
+https://calmedduck.github.io/Work-Day-Scheduler/
+https://github.com/CalmedDuck/Work-Day-Scheduler
 
 
 
