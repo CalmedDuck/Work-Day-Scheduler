@@ -19,3 +19,18 @@ $(function () {
         $(this).addClass("future");
     }
   });
+
+  
+  // 3. Get saved data from localStorage
+  $(".time-block").each(function () {
+    let blockId = $(this).attr("id");
+    let savedData = localStorage.getItem(blockId);
+
+    if (savedData) {
+      $(this).children("textarea").val(savedData);
+    }
+  });
+
+  // 4. Display the current date in the header
+  $("#currentDay").text(dayjs().format('MMMM D, YYYY'));
+});
